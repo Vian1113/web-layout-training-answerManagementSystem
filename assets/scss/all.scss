@@ -1,0 +1,9 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import './utils/variables';
+@import "../../node_modules/bootstrap";
+
+@import './base';//全站設定
+@import './layout/menu.scss';//共用的menu
+
+@import './pages/admin.scss';//admin 頁面
+

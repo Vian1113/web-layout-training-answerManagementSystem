@@ -1,0 +1,66 @@
+.mainContent{
+  margin-left: 296px;
+  
+
+  .detailBtn:hover{
+    color: $success !important;;
+  }
+
+  .pageNum{
+    padding:4px 11.5px;
+  }
+
+  .pagination{
+    margin-top: 63px;
+    --bs-pagination-border-color:#198754 !important;
+    --bs-pagination-border-radius: 0.125rem !important;
+    //border-radius: 2px 0px 0px 2px;
+    .page-link:hover{
+      background-color: $success;
+      color:$white !important;
+    }
+  }
+
+  
+}
+
+.radius-2{
+  border-radius: 2px !important;
+}
+
+.userImg{
+  width: 141px;
+  height: 141px;
+  object-fit: cover;
+}
+
+
+.newAdmin{
+  .sendBtn{
+    border:1px solid $gray-400;
+    &:hover{
+      background-color: $gray-400;
+    }
+  }
+
+}
+
+[aria-expanded="false"] .menu__icon--open {
+  display: inline;
+}
+
+[aria-expanded="false"] .menu__icon--close {
+  display: none;
+}
+
+[aria-expanded="true"] .menu__icon--open {
+  display: none;
+}
+
+[aria-expanded="true"] .menu__icon--close {
+  display: inline;
+}
+
+.accordion-button::after{
+  display: none;
+}

@@ -1,0 +1,23 @@
+.aside{
+  width: 296px;
+
+  .currentPage:before{
+      content: "";
+      position: absolute;
+      left: -32px;
+      width: 4px;
+      height: 32px;
+      background-color: $success;
+  
+}
+
+.nav-link:hover{
+  color:$success !important;
+}
+
+.userImg{
+  width: 40px;
+  height: 40px;
+}
+
+}
