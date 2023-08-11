@@ -12,9 +12,8 @@
 
   .pagination{
     margin-top: 63px;
-    --bs-pagination-border-color:#198754 !important;
+    --bs-pagination-border-color:#198754 !important; //$success
     --bs-pagination-border-radius: 0.125rem !important;
-    //border-radius: 2px 0px 0px 2px;
     .page-link:hover{
       background-color: $success;
       color:$white !important;
